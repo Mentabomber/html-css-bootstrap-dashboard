@@ -31,7 +31,27 @@ main section{
      padding-top: 100px; /* padding 100px alla section main e al nav cosi da non avere il contenuto sovrapposto sotto la navbar dell'header  */
 }
 
-
+div.list-group-item.list-group-item-action span{
+    padding: 4px;
+    border: 1px solid red;
+    border-radius: 50%;
+    background-color: red;
+}
+div.list-group-item.list-group-item-action span i{
+    color: white;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    padding-right: 10px;
+}
+.icone-li{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10%;
+    margin-bottom: -16px;
+}
 /* DEBUG  */
 
 header{
