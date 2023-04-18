@@ -1,0 +1,49 @@
+/* regole generali */
+
+
+/* header  */
+
+header{
+    height: 100px;
+}
+
+
+/* aside  */
+
+aside{
+    height: calc(100vh - 100px);
+}
+
+/* main  */
+main{
+    display: flex;
+}
+main nav{
+    width: 150px;
+    height: calc(100vh - 100px);
+}
+
+main section{
+    width: calc(100% - 150px);
+    height: calc(100vh - 100px);
+}
+
+
+
+
+
+
+
+/* DEBUG  */
+
+header{
+    background-color: aqua;
+}
+
+main nav{
+    background-color: blue; 
+}
+
+main section{
+    background-color: chartreuse;
+}
