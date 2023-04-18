@@ -17,18 +17,18 @@ main{
     display: flex;
 }
 main nav{
-    width: 150px;
+    width: 120px;
     height: 100vh;
 }
 
 main section{
-    width: calc(100% - 150px);
+    width: calc(100% - 120px);
     height: 100vh;
 }
 
 main nav,
 main section{
-    padding-top: 100px;
+     padding-top: 100px; /* padding 100px alla section main e al nav cosi da non avere il contenuto sovrapposto sotto la navbar dell'header  */
 }
 
 
