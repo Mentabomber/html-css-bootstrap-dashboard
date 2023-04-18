@@ -4,15 +4,13 @@
 /* header  */
 
 header{
-    height: 100px;
+
 }
 
-
-/* aside  */
-
-aside{
-    height: calc(100vh - 100px);
+header nav{
+    height: 80px;
 }
+
 
 /* main  */
 main{
@@ -20,15 +18,18 @@ main{
 }
 main nav{
     width: 150px;
-    height: calc(100vh - 100px);
+    height: 100vh;
 }
 
 main section{
     width: calc(100% - 150px);
-    height: calc(100vh - 100px);
+    height: 100vh;
 }
 
-
+main nav,
+main section{
+    padding-top: 100px;
+}
 
 
 
@@ -41,7 +42,7 @@ header{
 }
 
 main nav{
-    background-color: blue; 
+    background-color: wheat; 
 }
 
 main section{
