@@ -32,9 +32,6 @@ main section{
 }
 
 
-
-
-
 /* DEBUG  */
 
 header{
@@ -45,6 +42,6 @@ main nav{
     background-color: wheat; 
 }
 
-main section{
+main{
     background-color: chartreuse;
 }
