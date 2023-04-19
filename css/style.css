@@ -6,7 +6,9 @@
 header{
 
 }
-
+.poof-content{
+    display: none;
+}
 header nav{
     height: 80px;
 }
@@ -16,15 +18,15 @@ header nav{
 main{
     display: flex;
 }
-main nav{
-    width: 120px;
-    height: 100vh;
-}
+
 main nav.navbar.bg-body-tertiary{
     width: 100%;
     height: 100px;
 }
- 
+#main-navbar-aside{
+    width: 120px;
+    height: 100vh;
+}
 main section{
     width: calc(100% - 120px);
     height: calc(100vh - 180px);
@@ -40,7 +42,9 @@ main div.row.overflow-y-auto{
     height: 30px;
     margin-right: 10px;
 }
-
+#bg-navbar-offcanvas-interna{
+    background-color: rgb(27,114,232);
+}
 div.img-container img{
     height: 100%;
     width: 100%;
@@ -60,6 +64,25 @@ ul li{
     border-radius: 10%;
     margin-bottom: -16px;
 }
+
+@media screen and (max-width: 768px) {
+    
+    .hidden-content{
+        display: none;
+    }
+    .poof-content{
+        display: inline-block;
+    }
+    #main-navbar-aside{
+        width: 50px;
+    }
+
+    #sections-container{
+    width: calc(100% - 50px);
+}
+
+}
+
 /* DEBUG  */
 
 header{
@@ -73,3 +96,4 @@ main nav{
 main{
     background-color: chartreuse;
 }
+
