@@ -20,22 +20,30 @@ main nav{
     width: 120px;
     height: 100vh;
 }
-
+main nav.navbar.bg-body-tertiary{
+    width: 100%;
+    height: 100px;
+}
+ 
 main section{
     width: calc(100% - 120px);
-    height: 100vh;
+    height: calc(100vh - 180px);
 }
 
 main nav,
-main section{
-     padding-top: 100px; /* padding 100px alla section main e al nav cosi da non avere il contenuto sovrapposto sotto la navbar dell'header  */
+main div.row.overflow-y-auto{
+     padding-top: 80px; /* padding 100px alla section main e al nav cosi da non avere il contenuto sovrapposto sotto la navbar dell'header  */
 }
 
-div.list-group-item.list-group-item-action span{
-    padding: 4px;
-    border: 1px solid red;
-    border-radius: 50%;
-    background-color: red;
+.img-container{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+div.img-container img{
+    height: 100%;
+    width: 100%;
 }
 div.list-group-item.list-group-item-action span i{
     color: white;
