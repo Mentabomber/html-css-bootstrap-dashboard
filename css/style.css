@@ -78,10 +78,12 @@ ul li{
     }
     #main-navbar-aside{
         width: 50px;
+        
     }
 
     #sections-container{
     width: calc(100% - 50px);
+
 }
 
 }
