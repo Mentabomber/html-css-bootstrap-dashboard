@@ -20,6 +20,9 @@ header nav{
 /* main  */
 main{
     display: flex;
+    width: 100%;
+    height: 100vh;
+    
 }
 
 main nav.navbar.bg-body-tertiary{
@@ -31,8 +34,7 @@ main nav.navbar.bg-body-tertiary{
     height: 100vh;
 }
 main section{
-    width: calc(100% - 120px);
-    height: calc(100vh - 180px);
+
 }
 
 main nav,
@@ -94,8 +96,8 @@ header{
     background-color: aqua;
 }
 
-main nav{
-    background-color: wheat; 
+#main-navbar-aside{
+    background-color: wheat;
 }
 
 main{
